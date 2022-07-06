@@ -1,0 +1,91 @@
+body {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    background-color: lavender;
+    padding-top: 4.5rem;
+}
+main {
+    padding: 10px 200px;
+}
+a {
+    color: hotpink;
+}
+.menu-link{
+    margin: 20px;
+}
+
+pre {
+    font-family: monospace;
+    margin: 0;
+}
+
+.inga-and-goose{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    font-family: "Courier New", serif;
+    color: #222222;
+    font-style: oblique;
+    font-weight: bold;
+}
+h3{
+    text-align: left;
+    font-family: "Apple LiGothic";
+    font-weight: revert;
+    color: blueviolet;
+}
+
+h4{
+    color: purple;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+.nav{
+    display: inline-block;
+    margin-right: 4px;
+}
+.string {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.custom-btn {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+.btn-2 {
+    background: rgb(96,9,240);
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+    border: none;
+
+}
+.btn-2:before {
+    height: 0%;
+    width: 2px;
+}
+.btn-2:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5),
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+.bg-col{
+    background-color: #b3b3db;
+}
