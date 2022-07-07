@@ -38,9 +38,7 @@ jobs:
           npm ci
           npx playwright install-deps
           npx playwright install
-      - name: Run Playwright Tests        
-        continue-on-error: false
-        working-directory: testing       
+      - name: Run Playwright Tests
         run: npm run test
   build-and-deploy:
     name: Build and Deploy to GH Pages
